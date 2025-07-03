@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Countdown Timer - CodeClause Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🚀 Countdown Timer</h1>
+      <p class="subtitle">
+        A project for <strong>CodeClause Internship</strong>
+      </p>
+
+      <!-- Event Inputs -->
+      <input type="text" id="eventName" placeholder="Enter Event Name" />
+      <input type="datetime-local" id="eventTime" />
+      <button onclick="addEvent()">Add Countdown</button>
+
+      <!-- Countdown timers will appear here -->
+      <div id="eventList"></div>
+    </div>
+
+    <!-- Sound file -->
+    <audio
+      id="alarmSound"
+      src="alarm.mp3/alarm_clock.mp3"
+      preload="auto"
+    ></audio>
+    <script src="script.js"></script>
+    <audio
+      id="tickSound"
+      src="alarm.mp3/clock-tick-101150.mp3"
+      preload="auto"
+    ></audio>
+  </body>
+</html>
