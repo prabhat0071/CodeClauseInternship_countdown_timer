@@ -30,12 +30,3 @@ Enter your event name and select the date/time.
 
 
 
-
-
-🧑‍💻 Developed By
-Prabhat Singh
-A simple project for learning and practicing DOM manipulation, event handling, and user interaction using vanilla JS.
-
-
-
-Click "Add Countdown" to start the timer
