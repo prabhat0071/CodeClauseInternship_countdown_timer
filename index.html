@@ -1,32 +1,40 @@
 <!DOCTYPE html>
+<!--
+  Project Name: Countdown Timer
+  Developed by: Prabhat singh
+  Date: July 2025
+  Description: This is a countdown timer web project using HTML, CSS, and JavaScript
+-->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Countdown Timer - CodeClause Project</title>
+    <title>Countdown Timer Project</title>
+    <!-- Linking external CSS file for styling -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <h1>🚀 Countdown Timer</h1>
       <p class="subtitle">
-        A project for <strong>CodeClause Internship</strong>
+        <strong>web-based countdown timer project </strong>
       </p>
 
-      <!-- Event Inputs -->
-      <input type="text" id="eventName" placeholder="Enter Event Name" />
+      <!-- Input fields of event name and time will be like this-->
+      <input type="text" id="eventName" placeholder="Please Enter Event Name" />
       <input type="datetime-local" id="eventTime" />
       <button onclick="addEvent()">Add Countdown</button>
 
-      <!-- Countdown timers will appear here -->
+      <!-- Countdown timers will show from here  -->
       <div id="eventList"></div>
     </div>
 
-    <!-- Sound file -->
+    <!-- Audio files will be like this -->
     <audio
       id="alarmSound"
       src="alarm.mp3/alarm_clock.mp3"
       preload="auto"
     ></audio>
+    <!-- Linking external JavaScript file for countdown logic -->
     <script src="script.js"></script>
     <audio
       id="tickSound"

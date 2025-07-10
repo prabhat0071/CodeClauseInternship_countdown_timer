@@ -1,3 +1,10 @@
+/* 
+  Project Name: Countdown Timer
+  Developed by: Prabhat singh
+  Date: July 2025
+  Description: Styling for countdown timer project
+*/
+
 body::before {
     content: "CodeClause Internship Project";
     position: fixed;

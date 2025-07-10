@@ -1,3 +1,9 @@
+/**
+ * Project Name: Countdown Timer
+ * Developed by: Prabhat singh
+ * Date: July 2025
+ * Description: This script handles the countdown logic
+ */
 function addEvent() {
   const name = document.getElementById("eventName").value;
   const timeInput = document.getElementById("eventTime").value;
